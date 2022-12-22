@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'models/option.dart';
 import 'screens/screen_0.dart';
 import 'screens/screen_1.dart';
+import 'screens/screen_2.dart';
 import 'widgets/separated_list_tile.dart';
 
 void main() {
@@ -34,9 +35,12 @@ class Home extends StatelessWidget {
         appBar: AppBar(
           title: const Text('100-ui-challenges'),
         ),
-        body: const SeparatedListTile(options: [
-          Option(title: 'Screen Zero', child: Screen0()),
-          Option(title: 'Screen One', child: Screen1()),
-        ]),
+        body: const SeparatedListTile(
+          options: [
+            Option(title: 'Screen Zero', child: Screen0()),
+            Option(title: 'Screen One', child: Screen1()),
+            Option(title: 'Screen Two', child: Screen2()),
+          ],
+        ),
       );
 }
