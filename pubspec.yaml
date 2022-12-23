@@ -31,6 +31,7 @@ flutter:
     - assets/screen0/girl.png
     - assets/screen_1/
     - assets/screen_2/
+    - assets/screen_3/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
