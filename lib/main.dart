@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uiChallenges/screens/screen_3.dart';
 
 import 'models/option.dart';
 import 'screens/screen_0.dart';
@@ -40,6 +41,7 @@ class Home extends StatelessWidget {
             Option(title: 'Screen Zero', child: Screen0()),
             Option(title: 'Screen One', child: Screen1()),
             Option(title: 'Screen Two', child: Screen2()),
+            Option(title: 'Screen Three', child: Screen3()),
           ],
         ),
       );
