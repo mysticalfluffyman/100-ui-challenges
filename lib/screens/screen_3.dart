@@ -20,7 +20,6 @@ class _Screen3State extends State<Screen3> {
                 width: MediaQuery.of(context).size.width,
                 child: Center(child: Image.asset('assets/screen_3/ovals.png'))),
             Align(
-              alignment: Alignment.center,
               child: SizedBox(
                   height: MediaQuery.of(context).size.height / 1.4,
                   width: MediaQuery.of(context).size.width / 1.4,

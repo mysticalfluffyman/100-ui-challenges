@@ -5,6 +5,7 @@ import 'models/option.dart';
 import 'screens/screen_0.dart';
 import 'screens/screen_1.dart';
 import 'screens/screen_2.dart';
+import 'screens/screen_6/screen_6.dart';
 import 'widgets/separated_list_tile.dart';
 
 void main() {
@@ -42,6 +43,7 @@ class Home extends StatelessWidget {
             Option(title: 'Screen One', child: Screen1()),
             Option(title: 'Screen Two', child: Screen2()),
             Option(title: 'Screen Three', child: Screen3()),
+            Option(title: 'Screen Six', child: Screen6()),
           ],
         ),
       );

@@ -10,14 +10,15 @@ class Screen0 extends StatelessWidget {
   // ignore: use_decorated_box
   Widget build(final BuildContext context) => Container(
         decoration: BoxDecoration(
-            gradient: LinearGradient(
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-          colors: [
-            Theme.of(context).primaryColor,
-            const Color(0XFF9245E8),
-          ],
-        )),
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [
+              Theme.of(context).primaryColor,
+              const Color(0XFF9245E8),
+            ],
+          ),
+        ),
         child: SafeArea(
           bottom: false,
           child: Scaffold(
@@ -40,7 +41,9 @@ class Screen0 extends StatelessWidget {
                       Text(
                         'SKIP',
                         style: GoogleFonts.openSans(
-                            fontWeight: FontWeight.w600, color: Colors.white),
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white,
+                        ),
                       )
                     ],
                   ),
@@ -50,10 +53,11 @@ class Screen0 extends StatelessWidget {
                     child: Text(
                       '90\u02e2 Style',
                       style: GoogleFonts.openSans(
-                          fontSize: 30,
-                          fontWeight: FontWeight.w800,
-                          wordSpacing: 10,
-                          color: Colors.white),
+                        fontSize: 30,
+                        fontWeight: FontWeight.w800,
+                        wordSpacing: 10,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
                   Positioned(
@@ -63,9 +67,10 @@ class Screen0 extends StatelessWidget {
                       '90s Nostalgia Gifts\n & Merchandise',
                       textAlign: TextAlign.center,
                       style: GoogleFonts.openSans(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w700,
-                          color: const Color(0XFFC9A0F8)),
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700,
+                        color: const Color(0XFFC9A0F8),
+                      ),
                     ),
                   ),
                   Positioned(
@@ -83,8 +88,9 @@ class Screen0 extends StatelessWidget {
                       height: 70,
                       width: MediaQuery.of(context).size.width - 50,
                       decoration: BoxDecoration(
-                          color: const Color(0XFF3CC9D7),
-                          borderRadius: BorderRadius.circular(20)),
+                        color: const Color(0XFF3CC9D7),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
                       child: Center(
                         child: Text(
                           'SIGN UP WITH EMAIL',

@@ -62,24 +62,25 @@ class Screen1 extends StatelessWidget {
                 width: 288,
                 child: RichText(
                   text: TextSpan(
-                      text: '230,100.04',
-                      style: GoogleFonts.montserrat(
-                        color: Colors.white,
-                        fontSize: 12,
-                        fontWeight: FontWeight.w700,
-                      ),
-                      children: [
-                        TextSpan(
-                          text: ' People trust us!',
-                          style: GoogleFonts.montserrat(
-                            color: Colors.white,
-                            fontSize: 12,
-                            fontWeight: FontWeight.w400,
-                            letterSpacing: 1.5,
-                            wordSpacing: 2,
-                          ),
-                        )
-                      ]),
+                    text: '230,100.04',
+                    style: GoogleFonts.montserrat(
+                      color: Colors.white,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w700,
+                    ),
+                    children: [
+                      TextSpan(
+                        text: ' People trust us!',
+                        style: GoogleFonts.montserrat(
+                          color: Colors.white,
+                          fontSize: 12,
+                          fontWeight: FontWeight.w400,
+                          letterSpacing: 1.5,
+                          wordSpacing: 2,
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -99,7 +100,7 @@ class Screen1 extends StatelessWidget {
                       ),
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.only(left: 20.0),
+                      padding: const EdgeInsets.only(left: 20),
                       child: TextFormField(
                         decoration: InputDecoration(
                             hintText: 'Email address',

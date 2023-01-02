@@ -3,28 +3,24 @@ description: A new Flutter project.
 
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
-
 version: 1.0.0+1
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
 
-
 dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  flutter_svg: ^1.1.6
   google_fonts: ^3.0.1
 
 dev_dependencies:
- 
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
 
-
 flutter:
-  
   uses-material-design: true
 
   assets:
@@ -32,6 +28,7 @@ flutter:
     - assets/screen_1/
     - assets/screen_2/
     - assets/screen_3/
+    - assets/screen_6/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
